@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Student Login Form </title>
+    <link rel="stylesheet" type="text/css" href = "CSS/styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+  </head>
+  <body>
+    <div class="center">
+      <h1> Student Login</h1>
+
+      <form method="post">
+        <div class="txt_field">
+          <input type="text" name="usn" required>
+          <span></span>
+          <label>USN</label>
+        </div>
+		<form method="post">
+        <div class="txt_field">
+          <input type="text" name="dob" required>
+          <span></span>
+          <label>DOB</label>
+        </div>
+		
+		<div class="txt_field">
+          <input type="password" name="passwd" required>
+          <span></span>
+          <label>Password</label>
+        </div>
+        <div class="pass">Forgot Password?</div>
+        <input type="submit" value="Login">
+        <div class="signup_link">
+          Not a member? <a href="#">Signup</a>
+        </div>
+      </form>
+    </div>
+
+  </body>
+</html>
